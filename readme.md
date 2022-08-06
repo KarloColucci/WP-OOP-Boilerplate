@@ -17,7 +17,7 @@ The root directory contains **index.php**, **style.css**, **header.php**, **foot
 
 * Ready and available for [translations](https://developer.wordpress.org/themes/functionality/internationalization/).
 * [Scripts and stylesheets](https://developer.wordpress.org/themes/basics/including-css-javascript/) properly included. 
-* [Fontawsome 6](https://fontawesome.com/docs/web/use-with/wordpress/)included and ready. 
+* [Fontawsome 6](https://fontawesome.com/docs/web/use-with/wordpress/) included and ready. 
 * [3 registered menus](https://codex.wordpress.org/Navigation_Menus) available in the customizer (Primary, Secondary, Mobile dropdown).
 * 4 colums footer with [3 registered footer](https://developer.wordpress.org/reference/functions/register_nav_menus/) sidebars available in the customizer.
 * [Theme support ](https://developer.wordpress.org/reference/functions/add_theme_support/) for WooCommerce, post-thumbnails, customize-selective-refresh-widgets.
