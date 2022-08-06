@@ -1,0 +1,244 @@
+/*
+Theme Name: THEME_NAME
+Theme URI: https://wordpress.org/
+Author: DNM-WARE
+Author URI: https://wordpress.org/
+Description: Build on a solidly foundation.
+Requires at least: 5.9
+Tested up to: 6.0.1
+Requires PHP: 5.6
+Version: 1.1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: theme-name
+Domain Path: /languages
+Tags: classic theme, php, poo, start, minimal
+*/
+
+/* --- Public side CSS --- */
+
+@import url("./assets/css/media-queries.css");
+
+:root {
+    --item-spacer: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1712px;
+    font-size: 16px;
+    font-family: sans-serif;
+    word-break: break-word;
+    line-height: 1.61;
+}
+
+.site-content-wrapper {
+    max-width: 1058px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header {
+    border-bottom: 1px solid #111111;
+}
+
+.content-area {
+    margin: 0 var(--item-spacer);
+}
+
+.site h1,
+.site h2,
+.site h3,
+.site h4,
+.site h5 {
+    margin: var(--item-spacer) auto;
+}
+
+.site a:hover {
+    color: #551A8B;
+}
+
+/* --- Top nav menu --- */
+
+.main-navmenu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-left: var(--item-spacer);
+    margin-right: var(--item-spacer);
+}
+
+.main-navmenu-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.secondary-navigation {
+    margin-left: auto;
+}
+
+.menu-wrapper {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+.menu-wrapper li {
+    display: inline;
+    margin-left: var(--item-spacer);
+}
+
+.site-logo img {
+    vertical-align: middle;
+    user-select: none;
+}
+
+/* --- Mobile dropdown menu --- */
+
+/*icon*/
+.mobile-hamburger-icon {
+    display: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.hamburger-bars {
+    background: #111111;
+    height: 2.5px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    width: 20px;
+    margin: 2px 2px 0 0;
+    border-radius: 3px;
+}
+
+.hamburger-open>.hamburger-bars:first-child {
+    transform: rotate(45deg);
+    transform-origin: 4.2px;
+}
+
+.hamburger-open>.hamburger-bars:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-open>.hamburger-bars:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 3px;
+}
+
+/*dropdown*/
+
+.menu-search-mobile ul {
+    list-style: none;
+    display: none;
+    padding-inline-start: var(--item-spacer);
+}
+
+.mobile-dropdown-menu {
+    position: relative;
+}
+
+.mobile-navigation {
+    width: 100%;
+}
+
+.mobile-menu-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #222222;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.mobile-menu-wrapper li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-menu-wrapper a {
+    color: #ffffff;
+    display: block;
+    padding: var(--item-spacer) 0 var(--item-spacer) var(--item-spacer);
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-menu-wrapper li a:hover {
+    background-color: rgba(17, 17, 17, .5);
+}
+
+/* --- Footer menu --- */
+
+.site-footer {
+    margin: 0 var(--item-spacer);
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-container p {
+    width: 58%;
+}
+
+.footer-site-branding,
+.footer-sidebar {
+    width: 25%;
+}
+
+.footer-sidebar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.footer-menu-wrapper {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+/* --- Copyright div --- */
+
+.copyright-div {
+    border-top: 1px solid #111111;
+    margin: var(--item-spacer) 0;
+    padding: var(--item-spacer) 0;
+}
+
+.copyright-div p {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright-div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copyright-colums {
+    float: left;
+    width: 33.33%;
+}
+
+.social-logo a {
+    font-size: 1.1em;
+    color: #111111;
+    cursor: pointer;
+    margin-right: calc(var(--item-spacer) / 1.61);
+}
+
+.powered-by {
+    text-align: center;
+}
+
+.company-logo {
+    text-align: right;
+}

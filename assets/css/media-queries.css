@@ -1,0 +1,86 @@
+/* --- Responsive media queries for all screen sizes --- */
+
+/* ---------- Small screen, non-retina ---------- */
+@media only screen and (max-device-width: 700px) {
+
+    /*footer*/
+    .site-footer .footer-container {
+        display: block;
+    }
+
+    .footer-container>.footer-site-branding,
+    .footer-container>.footer-sidebar,
+    .footer-container>.footer-site-branding p {
+        width: 100%;
+    }
+
+    .copyright-div>.copyright-colums {
+        width: 100%;
+        text-align: left;
+        margin: calc(var(--item-spacer) / 2) 0;
+    }
+
+    /*menu*/
+    .primary-navigation,
+    .secondary-navigation .menu-wrapper {
+        display: none;
+    }
+
+    .secondary-navigation>.mobile-hamburger-icon {
+        display: inline-block;
+    }
+
+    .secondary-navigation .menu-search-mobile {
+        display: inline-block;
+    }
+
+    .secondary-navigation .menu-search-mobile ul {
+        list-style: none;
+        display: inline-block;
+    }
+
+}
+
+/* ---------- Small screen, retina ---------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 700px),
+only screen and (min-resolution: 192dpi) and (min-device-width: 320px) and (max-device-width: 700px) {}
+
+/* ---------- Medium screen, non-retina ---------- */
+@media only screen and (min-device-width: 700px) and (max-device-width: 1400px) {
+
+    /*menu*/
+    .main-navmenu-container>.primary-navigation {
+        flex: 0 0 100%;
+        border-top: 1px solid #111111;
+        width: 100%;
+        order: 1;
+        /*Display primary menu below main nav container*/
+    }
+
+    .main-navmenu-container>.primary-navigation li:first-child {
+        margin-left: 0;
+    }
+
+    .mobile-dropdown-menu {
+        display: none;
+    }
+
+}
+
+/* ---------- Medium screen, retina ---------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 700px) and (max-device-width: 1400px),
+only screen and (min-resolution: 192dpi) and (min-device-width: 700px) and (max-device-width: 1400px) {}
+
+/* ---------- Large screen, non-retina ---------- */
+@media only screen and (min-device-width: 1400px) {
+
+    /*menu*/
+    .mobile-dropdown-menu {
+        display: none;
+    }
+
+}
+
+/* ---------- Large screen, retina ---------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1400px),
+only screen and (min-resolution: 192dpi) and (min-device-width: 1400px) {}
