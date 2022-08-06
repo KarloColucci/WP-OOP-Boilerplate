@@ -15,16 +15,16 @@ The root directory contains **index.php**, **style.css**, **header.php**, **foot
 
 ## Theme features & CSS
 
-* Ready and available for translations.
-* Scripts and stylesheets properly enqueued. 
-* Fontawsome 6 included and ready. 
-* 3 registered menus available in the customizer (Primary, Secondary, Mobile dropdown).
-* 4 colums footer with 3 registered footer sidebars available in the customizer.
-* Theme support for WooCommerce, post-thumbnails, customize-selective-refresh-widgets.
-* Support for core custom logo with the logo functionality ready and available in the customizer. 
-* SVG images and logo upload allowed.
-* Minimal CSS centered website and responsive display.
-* CSS responsive queries for all screen sizes (small, medium, large) with minimal presets. 
+* Ready and available for [translations](https://developer.wordpress.org/themes/functionality/internationalization/).
+* [Scripts and stylesheets](https://developer.wordpress.org/themes/basics/including-css-javascript/) properly included. 
+* [Fontawsome 6](https://fontawesome.com/docs/web/use-with/wordpress/)included and ready. 
+* [3 registered menus](https://codex.wordpress.org/Navigation_Menus) available in the customizer (Primary, Secondary, Mobile dropdown).
+* 4 colums footer with [3 registered footer](https://developer.wordpress.org/reference/functions/register_nav_menus/) sidebars available in the customizer.
+* [Theme support ](https://developer.wordpress.org/reference/functions/add_theme_support/) for WooCommerce, post-thumbnails, customize-selective-refresh-widgets.
+* Support for [core custom logo](https://developer.wordpress.org/themes/functionality/custom-logo/) with the logo functionality ready and available in the customizer. 
+* [SVG images allowed](https://developer.wordpress.org/reference/hooks/upload_mimes/).
+* Minimal CSS [centered website](https://www.w3schools.com/howto/howto_css_center_website.asp) and responsive display.
+* CSS [responsive queries](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries) for all screen sizes (small, medium, large) with minimal presets. 
 
 ## Installation
 
